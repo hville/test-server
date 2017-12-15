@@ -1,0 +1,27 @@
+{
+  "name": "@hugov/test-server",
+  "version": "0.0.1",
+  "description": "static files and in-memory dev server",
+  "keywords": [
+    "dev",
+    "server",
+    "test"
+  ],
+  "author": "Hugo Villeneuve",
+  "dependencies": {
+    "@hugov/promise-wrap": "0.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.56",
+    "cotest": "^3.0.0"
+  },
+  "scripts": {
+    "test": "node test",
+    "post": "npm test && npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hville/test-server.git"
+  },
+  "license": "MIT"
+}
